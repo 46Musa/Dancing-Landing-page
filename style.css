@@ -1,0 +1,266 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins";
+
+}
+.Nav-bar{
+    background-color: #3F4851;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: aliceblue;
+    font-family: "Poppins";
+
+}
+ul, li, a{
+    display: inline;
+    margin: 20px;
+}
+h1{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "Poppins";
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.Hero-section{
+    width: 100%;
+    height: 500px;
+    background-color: #3F4851;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Hero-details{
+    color: aliceblue;
+    margin-right: 200px;
+    float: right;
+    padding: 8px;
+}
+.Hero-details a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+img{
+    height: 500px;
+    margin: 60px;
+    padding: 60px;
+}
+.social-section{
+    background-color: #3F4851;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+.Social-icons img{
+    width: 20px;
+    height: 20px;
+    padding: -20px;
+}
+.About-class{
+    width: 100%;
+    height: 600px;
+    background-color: #161617;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.About-class img{
+    height: 500px;
+}
+.About-info{
+    color: aliceblue;
+    align-items: center;
+    margin-left: 50px;
+    padding: 70px;
+}
+.About-info a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+.About-info h2{
+    letter-spacing: 3px;
+}
+.Classes-Grid{
+    background-color: #3F4851;
+    width: 100%;
+    min-height: 600px;
+    text-align: center;
+}
+.Grid-info{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    row-gap: 100px;
+    margin: 20px;
+    padding-left: 70PX;
+    align-items: center;
+
+}
+.Classes-Grid h2{
+    color: aliceblue;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 30px;
+    font-size: 48px;
+}
+.Grid-info{
+    color: aliceblue;
+}
+.class-grid a{
+    color: aliceblue;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.class-grid .btn {
+  background: #fff;
+  color: #000;
+  font-weight: 800px;
+  text-decoration: none;
+}
+.class-grid img{
+    height: 200px;
+    width: 200px;
+}
+.testimonials-section {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #3F4851;
+      width: 100%;
+      height: 600px;
+    }
+
+.testimonials-section h2 {
+      font-size: 24px;
+      letter-spacing: 2px;
+      color: #ccc;
+    }
+
+.testimonials-section p {
+      font-size: 14px;
+      color: #999;
+      margin-top: 5px;
+      margin-bottom: 40px;
+    }
+
+.testimonials-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+.testimonial-card {
+      background-color: #1f2532;
+      border-radius: 12px;
+      padding: 40px 20px 20px;
+      max-width: 300px;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+.testimonial-card img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px;
+      position: absolute;
+      top: -150px;
+      left: 30%;
+      transform: translateX(-50%);
+    }
+
+.testimonial-name {
+      font-weight: bold;
+      margin-top: 40px;
+      margin-bottom: 5px;
+      font-size: 16px;
+    }
+
+.testimonial-role {
+      font-size: 13px;
+      color: #bbb;
+      margin-bottom: 20px;
+    }
+
+.testimonial-text {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #ddd;
+      margin-bottom: 20px;
+    }
+
+.stars {
+      color: #7f6bff;
+    }
+.contact{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161617;
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.container h1{
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: aliceblue;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #555a5f;
+    color: white;
+}
+input:focus
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 8px #bbb;
+}
+button{
+     width: 100%;
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(134, 100, 167);
+    border: none;
+    cursor: pointer;
+}
+.contact-info h2{
+    margin-bottom: 40px;
+}
+.contact-info{
+    text-align: left;
+    color: aliceblue;
+}
+.contact-info i{
+    color: white;
+    margin-right: 10px;
+}
